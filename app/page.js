@@ -30,7 +30,7 @@ export default function Home() {
           </div>
           <p className="text-gray-700 dark:text-gray-200 text-lg leading-relaxed font-[family-name:var(--font-geist-mono)] transition-colors">
             <span className="typewriter-delay-1">
-              Currently working as a Software Engineer at Makersan INC, where I'm developing smart agriculture applications. 
+              Currently working as a Software Engineer at Sovrox, where I'm developing smart agriculture applications. 
               I'm also pursuing my master's degree in Deep Learning, exploring the frontiers of artificial intelligence.
             </span>
           </p>
