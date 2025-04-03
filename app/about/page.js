@@ -24,7 +24,7 @@ export default function About() {
             <p>
               Currently, I am deepening my expertise through a master's degree focused on Deep Learning, delving into 
               cutting-edge techniques that push the boundaries of artificial intelligence. In my role as a Software 
-              Developer at Makersan, I am shaping digital solutions that blend technical rigor with creative innovation. 
+              Developer at Sovrox, I am shaping digital solutions that blend technical rigor with creative innovation. 
               I'm inspired by the dynamic intersection of technology and creativity and am excited to contribute to a 
               future where we continue to push boundaries and explore new horizons. 🚀
             </p>
