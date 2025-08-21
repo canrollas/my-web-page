@@ -1,5 +1,11 @@
 import localFont from "next/font/local";
+import { Inter } from "next/font/google";
 import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -13,15 +19,15 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "rollastech",
-  description: "Can Rollas",
+  title: "Can Rollas - Software Developer & Deep Learning Researcher",
+  description: "Academic one-page CV and portfolio of Can Rollas (AI, Computer Vision, AWS Cloud, Software Engineering).",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${inter.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
