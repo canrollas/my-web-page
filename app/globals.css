@@ -1,68 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* app/globals.css */
+@import "tailwindcss";
 
-:root {
-  --fg: #0f172a;
-  --muted: #475569;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-@media print {
-  .no-print {
-    display: none !important;
-  }
-  
-  body {
-    font-size: 12px;
-  }
-  
-  a[href]:after {
-    content: "";
-  }
-  
-  .page {
-    box-shadow: none;
-    border: none;
-  }
-}
-
-/* Smooth scrolling for anchor links */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f5f9;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
-}
-
-/* Focus styles for accessibility */
-a:focus,
-button:focus {
-  outline: 2px solid #3b82f6;
-  outline-offset: 2px;
-}
-
-/* Smooth transitions */
-* {
-  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
-}
+/* İstersen kendi globallerin */
+html, body { min-height: 100%; }
 
  
